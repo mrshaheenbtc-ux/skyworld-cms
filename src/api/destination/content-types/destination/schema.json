@@ -57,6 +57,12 @@
       "relation": "manyToMany",
       "target": "api::package.package",
       "mappedBy": "destinations"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity",
+      "mappedBy": "destination"
     }
   }
 }
