@@ -1,4 +1,11 @@
-export default ({ env }) => ({
+type EnvHelper = {
+  (key: string, defaultValue?: string): string;
+  int: (key: string, defaultValue?: number) => number;
+  bool: (key: string, defaultValue?: boolean) => boolean;
+  array: (key: string) => string[];
+};
+
+export default ({ env }: { env: EnvHelper }) => ({
   upload: {
     config: {
       provider: 'cloudinary',
