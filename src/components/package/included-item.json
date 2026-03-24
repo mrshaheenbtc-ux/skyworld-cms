@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_package_included_items",
+  "info": {
+    "displayName": "Included Item",
+    "icon": "check"
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

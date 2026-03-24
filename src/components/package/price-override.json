@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_package_price_overrides",
+  "info": {
+    "displayName": "Price Override",
+    "icon": "dollar-sign"
+  },
+  "attributes": {
+    "currency": {
+      "type": "enumeration",
+      "enum": ["USD", "EUR", "GBP"],
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "lastUpdated": {
+      "type": "datetime"
+    }
+  }
+}
