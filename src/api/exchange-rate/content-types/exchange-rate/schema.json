@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "exchange_rates",
+  "info": {
+    "singularName": "exchange-rate",
+    "pluralName": "exchange-rates",
+    "displayName": "Exchange Rate",
+    "description": "Currency exchange rates (relative to EGP)"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "usd": {
+      "type": "decimal",
+      "default": 0.032
+    },
+    "eur": {
+      "type": "decimal",
+      "default": 0.029
+    },
+    "gbp": {
+      "type": "decimal",
+      "default": 0.025
+    },
+    "lastUpdated": {
+      "type": "datetime"
+    }
+  }
+}
