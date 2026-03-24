@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_hotel_policies",
+  "info": {
+    "displayName": "Policy",
+    "icon": "info-circle"
+  },
+  "attributes": {
+    "checkIn": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "checkOut": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "cancellation": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

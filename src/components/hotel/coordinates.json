@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_hotel_coordinates",
+  "info": {
+    "displayName": "Coordinates",
+    "icon": "map-marker-alt"
+  },
+  "attributes": {
+    "lat": {
+      "type": "float"
+    },
+    "lng": {
+      "type": "float"
+    }
+  }
+}
