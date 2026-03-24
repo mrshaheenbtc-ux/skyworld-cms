@@ -27,4 +27,9 @@ export default ({ env }: { env: EnvHelper }) => ({
       },
     },
   },
+  'users-permissions': {
+    config: {
+      jwtSecret: env('JWT_SECRET'),
+    },
+  },
 });
