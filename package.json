@@ -1,0 +1,24 @@
+{
+  "name": "skyworld-cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sky World Tourism CMS",
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "^5.40.0",
+    "@strapi/plugin-users-permissions": "^5.40.0",
+    "pg": "^8.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "skyworld-cms"
+  }
+}
